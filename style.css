@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --tg-color-scheme: red
+}
+
+body {
+    background: #3e3e3e;
+    font-family: system-ui;
+    padding: 50px;
+}
+
+.list {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.list-link {
+    color: white;
+}
